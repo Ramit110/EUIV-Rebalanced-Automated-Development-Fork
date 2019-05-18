@@ -1,5 +1,7 @@
 # TempEUIVModChanges
 
+This version of the mod should be compatable with most if not all mods which mess with development cost.
+
 Did a long af test on my laptop, 1770 had:
 
   2 provinces at 50-60 dev
