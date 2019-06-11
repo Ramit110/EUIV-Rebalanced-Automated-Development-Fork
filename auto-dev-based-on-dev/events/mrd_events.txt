@@ -915,20 +915,18 @@ country_event = {
 }
 
 country_event = {
-	id = mrdtest.1
-	title = "mrdtest_1_title"
-	desc = "mrdtest_1_desc"
+	id = mrdtest.2
 	is_triggered_only = yes
 
 	trigger = {
-			has_local_modifier_value = {
-				which = development_cost
-				value = 0.9
-			}
+			# has_local_modifier_value = {
+			# 	which = development_cost
+			# 	value = 0.9
+			# }
 			NOT = {
 				has_local_modifier_value = {
 					which = development_cost
-					value = 1
+					value = -0.9
 				}
 			}
 	}
