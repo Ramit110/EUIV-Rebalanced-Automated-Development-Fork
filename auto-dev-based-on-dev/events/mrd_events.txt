@@ -925,46 +925,6 @@ province_event = {
 	trigger = {
 		has_local_modifier_value = {
 			which = local_development_cost
-			value = -100
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = -90
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = -80
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = -70
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = -60
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = -50
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = -40
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = -30
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = -20
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = -10
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
 			value = -1
 		}
 		has_local_modifier_value = {
@@ -1050,46 +1010,6 @@ province_event = {
 		has_local_modifier_value = {
 			which = local_development_cost
 			value = 1
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = 10
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = 20
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = 30
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = 40
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = 50
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = 60
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = 70
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = 80
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = 90
-		}
-		has_local_modifier_value = {
-			which = local_development_cost
-			value = 100
 		}
 	}
 
