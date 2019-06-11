@@ -32,17 +32,13 @@ country_event = {
 # For developing a province
 province_event = {
 	id = mrd.1
-	hidden = yes
-
-	trigger = {
-		NOT = { devastation = 1 }
-	}
+	# hidden = yes
 
 	mean_time_to_happen = {
-		months = 480
+		years = 30
 
 		modifier = {
-			factor = 0.05
+			factor = 0.001
 			NOT = {
 				has_local_modifier_value = {
 					which = development_cost
@@ -177,19 +173,6 @@ province_event = {
 			}
 		}
 		
-		modifier = {
-			factor = 1
-			has_local_modifier_value = {
-				which = development_cost
-				value = 0
-			}
-			NOT = {
-				has_local_modifier_value = {
-					which = development_cost
-					value = 0.1
-				}
-			}
-		}
 		
 		modifier = {
 			factor = 1
@@ -327,7 +310,7 @@ province_event = {
 		
 	}
 
-	option = {
+	immediate = {
 		random_list = {
 			33 = {
 				add_base_tax = 1
@@ -376,7 +359,7 @@ province_event = {
 				}
 			}
 		}
-		if = {
+		else_if = {
 			limit = { owner = { is_colonial_nation = yes } }
 			owner = {
 				colonial_parent = {
@@ -924,6 +907,30 @@ country_event = {
 
 	trigger = {
 		ai = no
+	}
+
+	option = {
+		name = "mrdtest_1_option"
+	}
+}
+
+country_event = {
+	id = mrdtest.1
+	title = "mrdtest_1_title"
+	desc = "mrdtest_1_desc"
+	is_triggered_only = yes
+
+	trigger = {
+			has_local_modifier_value = {
+				which = development_cost
+				value = 0.9
+			}
+			NOT = {
+				has_local_modifier_value = {
+					which = development_cost
+					value = 1
+				}
+			}
 	}
 
 	option = {
